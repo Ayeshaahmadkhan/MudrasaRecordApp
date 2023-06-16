@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="etName" type="id">text</item>
+    <item name="textViewName" type="id" />
+    <item name="textViewAge" type="id" />
+    <item name="textViewClass" type="id" />
+    <item name="textViewSabaq" type="id" />
+    <item name="textViewSabaqi" type="id" />
+    <item name="textViewManzil" type="id" />
 </resources>

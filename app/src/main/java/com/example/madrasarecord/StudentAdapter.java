@@ -1,5 +1,5 @@
 package com.example.madrasarecord;
-
+import com.example.madrasarecord.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,8 +13,8 @@ import java.util.List;
 
 public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentViewHolder> {
 
-    private List<Student> studentList;
-    private Context context;
+    private final List<Student> studentList;
+    private final Context context;
 
     public StudentAdapter(List<Student> studentList, Context context) {
         this.studentList = studentList;
@@ -45,18 +45,19 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
         return studentList.size();
     }
 
-    public class StudentViewHolder extends RecyclerView.ViewHolder {
+    public static class StudentViewHolder extends RecyclerView.ViewHolder {
         TextView tvName, tvAge, tvClass, tvSabaq, tvSabaqi, tvManzil;
 
         public StudentViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tvName = itemView.findViewById(R.id.etName);
-            tvAge = itemView.findViewById(R.id.etAge);
-            tvClass = itemView.findViewById(R.id.etClass);
-            tvSabaq = itemView.findViewById(R.id.etSabaq);
-            tvSabaqi = itemView.findViewById(R.id.etSabaqi);
-            tvManzil = itemView.findViewById(R.id.etManzil);
+            tvName = itemView.findViewById(R.id.textViewName);
+            tvAge = itemView.findViewById(R.id.textViewAge);
+            tvClass = itemView.findViewById(R.id.textViewClass);
+            tvSabaq = itemView.findViewById(R.id.textViewSabaq);
+            tvSabaqi = itemView.findViewById(R.id.textViewSabaqi);
+            tvManzil = itemView.findViewById(R.id.textViewManzil);
         }
+
     }
 }
