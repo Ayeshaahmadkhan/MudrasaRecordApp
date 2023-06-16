@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age" />
+
+    <EditText
+        android:id="@+id/etClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class" />
+
+    <EditText
+        android:id="@+id/etSabaq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sabaq" />
+
+    <EditText
+        android:id="@+id/etSabaqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sabaqi" />
+
+    <EditText
+        android:id="@+id/etManzil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Manzil" />
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student" />
+
+</LinearLayout>
