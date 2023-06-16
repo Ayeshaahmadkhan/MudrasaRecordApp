@@ -1,49 +1,66 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+
+    android:layout_width="400dp"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
 
     <EditText
         android:id="@+id/etName"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_marginTop="30dp"
         android:layout_height="wrap_content"
-        android:hint="@string/name" />
+        android:inputType="text"
+        android:hint="@string/name"/>
+
+
 
     <EditText
         android:id="@+id/etAge"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:hint="Age" />
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="@string/age" />
 
     <EditText
         android:id="@+id/etClass"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_marginTop="30dp"
         android:layout_height="wrap_content"
-        android:hint="Class" />
+        android:inputType="textAutoComplete"
+        android:hint="@string/clas" />
 
     <EditText
         android:id="@+id/etSabaq"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:hint="Sabaq" />
+        android:layout_marginTop="30dp"
+        android:inputType="textAutoComplete"
+        android:hint="@string/sabaq" />
 
     <EditText
         android:id="@+id/etSabaqi"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:hint="Sabaqi" />
+        android:inputType="textAutoComplete"
+        android:layout_marginTop="30dp"
+        android:hint="@string/sabaqi" />
 
     <EditText
         android:id="@+id/etManzil"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:hint="Manzil" />
+        android:layout_marginTop="30dp"
+        android:inputType="textAutoComplete"
+        android:hint="@string/manzil" />
 
     <Button
         android:id="@+id/btnAddStudent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Student" />
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/add_student" />
 
 </LinearLayout>

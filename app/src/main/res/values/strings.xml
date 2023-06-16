@@ -1,4 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MadrasaRecord</string>
     <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="clas">Class</string>
+    <string name="sabaq">Sabaq</string>
+    <string name="sabaqi">Sabaqi</string>
+    <string name="manzil">Manzil</string>
+    <string name="add_student">Add Student</string>
 </resources>
